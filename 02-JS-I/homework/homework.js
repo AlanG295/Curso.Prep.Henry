@@ -107,15 +107,15 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var resultado = x / y;
-  return resultado;
+  var resto = (x / y);
+  return resto;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num == esPar) {
+  if (num%2==0) {
     return true
   } else {
     return false
@@ -126,7 +126,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num == 0) {
+  if (num%2==1) {
     return true
   } else {
     return false
@@ -201,7 +201,6 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return (nombre + apellido);
 }
 
 
